@@ -9,6 +9,8 @@ Static HTML/CSS/JS. Copy [`web/`](web/) onto Unraid nginx. No Node at runtime.
 - **Ajazz** — AK870, AKC087 (onboard FN, no VIA)
 - **Epomaker** — Aula F75 Ultra, EK21, Galaxy65, QK108 (VIA + onboard FN)
 - **Royal Kludge** — RK61
+- **Womier** — Q61 V2 (VIA + onboard FN)
+- **Zuoya** — GMK108 (VIA + onboard FN)
 
 Open the nginx URL. Pick a manufacturer, then a model. Hash routes look like `#/epomaker/aula-f75-ultra`.
 
@@ -34,7 +36,7 @@ cp -a /home/mark/Documents/Dev/kbfn/web/. /mnt/Krusty-Burger/appdata/nginx/www/k
 cd /home/mark/Documents/Dev/kbfn && git pull && cp -a web/. /mnt/Krusty-Burger/appdata/nginx/www/kbfn/
 ```
 
-Then hard-refresh so `?v=hub4` loads.
+Then hard-refresh so `?v=hub5` loads.
 
 Do not `git pull` inside the nginx `www/kbfn/` folder — that is the served copy of `web/`, not the git repo.
 
@@ -47,6 +49,7 @@ Function-sheet data is `maker--slug.json`. USB VIA definitions (the files VIA’
 - `EPOMAKER_GALAXY65.json`
 - `EPOMAKER_QK108.json`
 - `RK61.json`
+- `WOMIER_Q61V2.json`
 
 The **VIA JSON** button downloads that USB file from this folder. USB only — no 2.4 GHz JSON.
 
