@@ -50,6 +50,7 @@ Function-sheet data is `maker--slug.json`. USB VIA definitions (the files VIA’
 - `EPOMAKER_QK108.json`
 - `RK61.json`
 - `WOMIER_Q61V2.json`
+- `ZUOYA_GMK108.json`
 
 The **VIA JSON** button downloads that USB file from this folder. USB only — no 2.4 GHz JSON.
 
